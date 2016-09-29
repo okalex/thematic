@@ -1,0 +1,18 @@
+{
+  "name": "atom-thematic",
+  "version": "0.0.0",
+  "description": "Thematic theme manager client for Atom",
+  "engines": {
+    "atom": "*"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alex Parkinson, @okalex",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^1.6.1"
+  }
+}

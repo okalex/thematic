@@ -1,0 +1,15 @@
+{
+  "name": "thematic-base-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "The base syntax theme for thematic",
+  "keywords": [
+    "syntax",
+    "thematic"
+  ],
+  "repository": "https://github.com/okalex/thematic-base-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
