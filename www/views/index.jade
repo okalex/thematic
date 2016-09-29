@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  h1= title
+  h2 Current Color Scheme
+  form(method="POST", action="/")
+    ul.colors
+      each val, key in colors
+        li.item
+          .name= key
+          .swatch(style="background-color:#"+colors[key])
+          input(type="text" name=key, value=colors[key])
+          
+    .actions
+      button(type="submit") Save
